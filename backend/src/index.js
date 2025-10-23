@@ -17,8 +17,8 @@ const PORT=process.env.PORT || 5000; // Use 5000 as fallback for local dev
 // --- START: CORS Configuration ---
 const allowedOrigins = [
   "http://localhost:5173", // Local Development
-  "https://ping-it-up.vercel.app", // Vercel Frontend Domain
-  "https://pingitup-n54z.onrender.com" // Render API Domain (precautionary)
+  "https://chatify-self-iota.vercel.app/", // Vercel Frontend Domain
+  "https://chatify-3qre.onrender.com" // Render API Domain (precautionary)
 ];
 
 const corsOptions = {
