@@ -40,7 +40,7 @@ This application uses a hybrid deployment model essential for WebSocket function
 
 * Deploy the backend repository to Render as a **Web Service**.
 * Ensure the start command is set to `npm start` (or `node src/index.js`).
-* Retrieve the final public API URL (e.g., `https://pingitup-api-xyz.onrender.com`).
+* Retrieve the final public API URL (e.g., `https://chatify-3qre.onrender.com`).
 
 ### 2. Frontend Deployment (Vercel)
 
@@ -50,7 +50,7 @@ This application uses a hybrid deployment model essential for WebSocket function
 
 ```
 Key: VITE_API_URL
-Value: https://pingitup-api-xyz.onrender.com
+Value: https://chatify-3qre.onrender.com
 ```
 
 * **CORS & Cookie Fixes:**

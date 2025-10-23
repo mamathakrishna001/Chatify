@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 import { io } from "socket.io-client";
 
 // Use the VITE_API_URL environment variable set on Vercel.
-// It should point to: https://pingitup-n54z.onrender.com
+// It should point to: https://chatify-3qre.onrender.com
 const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
 
 export const useAuthStore = create((set,get) => ({
